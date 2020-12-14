@@ -18,6 +18,6 @@
 
   <!-- calibration target -->
   <xacro:include filename="$(find franka_description)/robots/calibration_target.xacro" />
-  <xacro:calibration_target  xyz="2 0 1" rpy="0 0 0" connected_to="world" />
+  <xacro:calibration_target  xyz="1 0 0.5" rpy="0 0 0" connected_to="world" />
   <!-- end calibration target -->
 </robot>
