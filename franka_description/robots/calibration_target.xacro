@@ -12,13 +12,13 @@
       <visual>
         <origin xyz="0 0 0" rpy="0 1.57 0" />
         <geometry>
-          <mesh filename="$(find franka_description)/meshes/visual/calibration_target.dae"/>
+          <mesh filename="file://$(find franka_description)/meshes/visual/calibration_target.dae"/>
         </geometry>
       </visual>
       <collision>
         <origin xyz="0 0 0" rpy="0 1.57 0" />
         <geometry>
-          <mesh filename="$(find franka_description)/meshes/visual/calibration_target.dae"/>
+          <mesh filename="file://$(find franka_description)/meshes/visual/calibration_target.dae"/>
         </geometry>
       </collision>
       <!-- for simulation -->
@@ -31,4 +31,3 @@
     </link>
   </xacro:macro>
 </robot>
-
